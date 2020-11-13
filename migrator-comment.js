@@ -12,7 +12,7 @@ for (let comment of comments.results) {
     mail: comment.mail,
     mailMd5: comment.mailMd5,
     isSpam: comment.isSpam,
-    ua: comment.ua,
+    ua: comment.ua || '',
     link: comment.link,
     pid: comment.pid,
     rid: comment.rid,
