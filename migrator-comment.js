@@ -16,7 +16,7 @@ for (let comment of comments.results) {
     link: comment.link,
     pid: comment.pid,
     rid: comment.rid,
-    master: comment.mail === 'mail1st@qq.com',
+    master: false,
     comment: comment.comment,
     url: comment.url,
     created: new Date(comment.createdAt).getTime(),
